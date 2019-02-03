@@ -1,0 +1,10 @@
+{
+  "name": "carousel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "tslib": "^1.9.3",
+    "typescript": "^3.3.1"
+  }
+}

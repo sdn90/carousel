@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.carousel {
+  overflow-x: auto;
+  white-space: nowrap;
+  display: flex;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+/** hide the scrollbar */
+.carousel::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.carousel-item {
+  /* ignore */
+  -webkit-scroll-snap-align: start;
+  scroll-snap-align: start;
+}
